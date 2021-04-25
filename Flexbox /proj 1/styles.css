@@ -1,0 +1,104 @@
+body {
+    background: hsl(204, 43%, 93%);
+}
+
+#grid-container {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color:white;
+    place-items: start;
+    position: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: karla; 
+    flex-basis: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow:  lightsteelblue;
+}
+
+h2 {
+    color:hsl(179, 62%, 43%);
+}
+
+h3 {
+    color:hsl(71, 73%, 54%);
+}
+
+h4 {
+    color: ghostwhite;
+}
+
+.first {
+    color:hsl(218, 22%, 67%);
+    font-size: 16px;
+    font-family: karla;
+}
+
+.second {
+    color: ghostwhite;
+    font-size: 16px;
+    font-family: karla;
+}
+
+.third {
+    color: ghostwhite;
+    font-size: 16px;
+    font-family: karla;
+}
+
+.item {
+    box-sizing: border-box;
+}
+
+.item1 {
+   font-family: [karla];
+   grid-column-start: 1;
+   grid-column-end: 4;
+   height: 200px;
+   padding: 20px;
+}
+
+.item2 { 
+    font-family: [karla];
+    background-color: #59B0B0;
+    width: 350px;
+    height: 279px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.item2 h4 {
+    margin-bottom: 0;
+}
+
+.item3 {
+    display: grid;
+    font-family: [karla];
+    background-color: hsl(179, 62%, 43%)!important;
+    width: 350px;
+    height: 279px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.item3 h4 {
+    margin-bottom: 0;
+}
+
+
+button {
+    background-color:hsl(71, 73%, 54%) ;
+    height: 35px;
+    width: 220px;
+    font-family: [karla];
+    font-size: 16px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: ghostwhite;
+}
+

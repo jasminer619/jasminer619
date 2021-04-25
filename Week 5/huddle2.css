@@ -1,0 +1,134 @@
+@import url (https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap)
+
+body, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #634CAA;
+    padding: 3em;
+    background-image: url(bg-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: Open Sans;
+}
+
+header img {
+    width: 15%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.mockup_img {
+    width: 45%;
+}
+
+.content {
+    width: 40%;
+    margin: em auto;
+}
+
+.content h2 {
+    font-size: 40px;
+    color: white;
+    font-family: "poppins";
+}
+
+.content p {
+    padding: 2em 0em;
+    color: #CBBDE3;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.content button {
+    padding: 1em;
+    border-radius: 30px;
+    width: 40%;
+    color: purple;
+    background-color: white;
+    border: none;
+}
+
+.content button:hover {
+    background-color: blueviolet; 
+    color: white;
+}
+
+footer {
+    float: right;
+}
+
+footer .fab {
+    color:white;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: .5em;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+footer .fab:hover {
+    border-color: purple;
+    color: purple;
+}
+
+@media only screen and (max-width: 992px) {
+    main {
+        display: block;
+    }
+
+    main img {
+        width: 100% !important;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .content h2 {
+        font-size:  47px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    header img {
+        width: 50%;
+    }
+
+    main  {
+        display: block;
+        margin-top: 2em;
+    }
+
+    main img {
+        width: 100% !important;
+    }
+
+    .content {
+        width: 100%;
+        text-align: center;
+        margin: 2em auto;
+    }
+
+    .content h2 {
+        font-size: 20px;
+    }
+
+    .content button {
+        width: 80%;
+    }
+
+    footer {
+        float: none;
+        text-align: center;
+    }
+}
+
